@@ -37,9 +37,10 @@
 #    define RGB_MATRIX_BRIGHTNESS_TURN_OFF_VAL 48
 
 /* Indication led index */
-#    define NUM_LOCK_INDEX 32
-#    define CAPS_LOCK_INDEX 55
-#    define LOW_BAT_IND_INDEX 92
+#    define NUM_LOCK_IN2
+//#    define CAPS_LOCK_INDEX 55
+#    define CAPS_LOCK_INDEX 92
+#    define LOW_BAT_IND_INDEX 83
 
 #    define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #    define RGB_MATRIX_KEYPRESSES
@@ -48,3 +49,16 @@
 #    define CKLED2001_CURRENT_TUNE \
         { 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30 }
 #endif
+#define DYNAMIC_KEYMAP_LAYER_COUNT 7
+#define DYNAMIC_KEYMAP_MACRO_COUNT 80
+#define LEADER_TIMEOUT 250
+#define LEADER_PER_KEY_TIMING
+#define LEADER_NO_TIMEOUT
+
+#define MK_COMBINED
+#define MOUSEKEY_MOVE_DELTA 4
+#define MOUSEKEY_INTERVAL 10
+#define MOUSEKEY_WHEEL_INTERVAL 50
+
+#define TAPPING_TERM 200
+#define TAPPING_TERM_PER_KEY
