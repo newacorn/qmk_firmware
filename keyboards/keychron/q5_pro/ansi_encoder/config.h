@@ -38,8 +38,11 @@
 
 /* Indication led index */
 #    define NUM_LOCK_INDEX 32
-#    define CAPS_LOCK_INDEX 55
+//#    define CAPS_LOCK_INDEX 55
+//#    define LOW_BAT_IND_INDEX 92
+#    define CAPS_LOCK_INDEX 0
 #    define LOW_BAT_IND_INDEX 92
+
 
 #    define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #    define RGB_MATRIX_KEYPRESSES
@@ -48,3 +51,17 @@
 #    define SNLED27351_CURRENT_TUNE \
         { 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30, 0x30 }
 #endif
+#define DYNAMIC_KEYMAP_LAYER_COUNT 7
+#define DYNAMIC_KEYMAP_MACRO_COUNT 80
+#define LEADER_TIMEOUT 250
+#define LEADER_PER_KEY_TIMING
+#define LEADER_NO_TIMEOUT
+
+#define MK_COMBINED
+#define MOUSEKEY_MOVE_DELTA 4
+#define MOUSEKEY_INTERVAL 10
+#define MOUSEKEY_WHEEL_INTERVAL 50
+
+#define TAPPING_TERM 175
+#define TAPPING_TERM_PER_KEY
+//#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
